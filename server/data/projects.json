@@ -1,0 +1,38 @@
+[
+  {
+    "id": "u0001",
+    "title": "Self Balancing Robot",
+    "techStack": "Embedded Programming | System Control (PID) | C++ | LTSpice | MATLAB",
+    "associatedWith": "ULG"
+  },
+  {
+    "id": "u0002",
+    "title": "Face And Hand Detection Software",
+    "techStack": "Machine Learning | Computer Vision | C++ | OpenCV",
+    "associatedWith": "ULG"
+  },
+  {
+    "id": "u0003",
+    "title": "Spoken Digit Recognition",
+    "techStack": "Machine Learning | AI | Python | Scikit-learn",
+    "associatedWith": "ULG"
+  },
+  {
+    "id": "u0004",
+    "title": "Non-Linear Model of DC/DC Buck Converter",
+    "techStack": "Control System | Bifurcation | Chaos | Python | LTSpice",
+    "associatedWith": "ULG"
+  },
+  {
+    "id": "u0005",
+    "title": "Capgemini Hackathon",
+    "techStack": "JavaScript | React | Express - Node.js | PostgresSQL | Knex.js | Git | Trello",
+    "associatedWith": "CYF"
+  },
+  {
+    "id": "u0006",
+    "title": "Student Attendance Tracker",
+    "techStack": "JavaScript | React | Express - Node.js | PostgresSQL | Knex.js | Git | Trello",
+    "associatedWith": "CYF"
+  }
+]
