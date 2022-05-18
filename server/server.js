@@ -11,6 +11,7 @@ import helmet from "helmet";
 // import routes
 import homeRouter from "./routes/homeRoute";
 import projectsRouter from "./routes/projectRoute";
+import emotionPredictorRouter from "./routes/emotionPredictorRoute";
 
 const PORT = process.env.PORT || 3100;
 
@@ -36,6 +37,8 @@ app.use("/api", homeRouter);
 // '/projects' will prefix all post routes
 // with '/projects' => '/all' will become '/projects/all'
 app.use("/projects", projectsRouter);
+
+app.use("/emotion-predictor", emotionPredictorRouter);
 
 // implement route for errors
 app.use((err, _, res, next) => {
